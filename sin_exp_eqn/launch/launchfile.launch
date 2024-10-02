@@ -1,0 +1,9 @@
+<launch>
+  <!-- Launch the sin publisher node -->
+  <node pkg="sin_exp_eqn" type="sin_publisher.py" name="sin_publisher" output="screen" />
+
+  <!-- Launch the exp subscriber node -->
+  <node pkg="sin_exp_eqn" type="exp_subscriber.py" name="exp_subscriber" output="screen" />
+</launch>
+
+
